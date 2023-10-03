@@ -10,9 +10,21 @@ app_license = "MIT"
 # Includes in <head>
 # ------------------
 
+
 # include js, css files in header of desk.html
 # app_include_css = "/assets/daily_life/css/daily_life.css"
 # app_include_js = "/assets/daily_life/js/daily_life.js"
+
+app_include_js =[
+    "assets/js/erpnext.min.js",
+    "assets/js/highcharts.js",
+    "assets/js/highcharts-more.js",
+    "assets/js/item-series.js",
+    "assets/js/exporting.js",
+    "assets/js/export-data.js",
+    "assets/js/accessibilty.js",
+    "assets/js/charts.js"
+]
 
 # include js, css files in header of web template
 # web_include_css = "/assets/daily_life/css/daily_life.css"

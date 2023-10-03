@@ -1,0 +1,68 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "autoname": "format:Journal-{date}{day_name}.{####}",
+ "creation": "2023-08-18 10:45:59.960022",
+ "default_view": "List",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "date",
+  "column_break_h8gcx",
+  "day_name",
+  "section_break_snppz",
+  "things_i_did"
+ ],
+ "fields": [
+  {
+   "fieldname": "date",
+   "fieldtype": "Date",
+   "label": "Date"
+  },
+  {
+   "fieldname": "column_break_h8gcx",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "day_name",
+   "fieldtype": "Data",
+   "label": "Day Name"
+  },
+  {
+   "fieldname": "section_break_snppz",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "things_i_did",
+   "fieldtype": "Small Text",
+   "label": "Things I Did"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "links": [],
+ "modified": "2023-08-18 10:47:19.632172",
+ "modified_by": "Administrator",
+ "module": "Daily-life",
+ "name": "Daily Journal",
+ "name_case": "Title Case",
+ "naming_rule": "Expression",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": []
+}
